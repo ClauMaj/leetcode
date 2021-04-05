@@ -8,7 +8,7 @@
 // Output: [2,3,5,4,1,7] 
 // Explanation: Since x1=2, x2=5, x3=1, y1=3, y2=4, y3=7 then the answer is [2,3,5,4,1,7].
 
-const shuffle = function (nums, n) {
+const shuffle = (nums, n) => {
     let newArr = [];
     for (let i = 0; i < n; i++) {
         newArr.push(nums[i], nums[i + n]);
